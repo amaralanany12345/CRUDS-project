@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="c.css" />
+  </head>
+  <body>
+      <div class="container">
+        <h2 class="car">CAR SHOP CRUDS</h2>
+        <!-- <div class="info"></div> -->
+        <input type="text" placeholder="company name" class="company">
+        <input type="text" placeholder="car model" class="model">
+        <input type="number" placeholder="car version" class="version">
+        <input type="number" placeholder="car ID" class="id">
+        <div class="inputs">
+          <input onkeyup="getTotal()" type="number" placeholder="price" class="price">
+          <input onkeyup="getTotal()" type="number" placeholder="taxes" class="taxes">
+          <input onkeyup="getTotal()" type="number" placeholder="ads" class="ads">
+          <input onkeyup="getTotal()" type="number" placeholder="discount" class="discount">
+          <h3 onkeyup="getTotal()" class="h3"></h3>
+        </div>
+        <button class="create">create</button>
+        <input type="text" placeholder="search" class="search">
+        <div class="btns">
+          <button class="SearchByCompany">search by company</button>
+          <button class="SearchByModel">search by model</button>
+        </div>
+        <table >
+          <tr>
+            <th>company</th>
+            <th>model</th>
+            <th>version</th>
+            <th>id</th>
+            <th>price</th>
+            <th>taxes</th>
+            <th>ads</th>
+            <th>discount</th>
+            <th>delete</th>
+            <th>update</th>
+          </tr>
+          <tbody class="table">
+            
+          </tbody>
+
+        </table>
+      </div>
+      <script src="j.js"></script>
+  </body>
+</html>
